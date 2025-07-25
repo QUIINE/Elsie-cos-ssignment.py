@@ -1,5 +1,5 @@
-# Etukokwu Onyeoma Elsie 
-#Grading-code
+# Etukokwu Onyeoma Elsie.py
+#Grading-code.py
 def get_grade(score):
     if 70 <= score <= 100:
         return "A"
