@@ -1,5 +1,5 @@
 # Etukokwu Onyeoma Elsie 
-Grading-code
+#Grading-code
 def get_grade(score):
     if 70 <= score <= 100:
         return "A"
@@ -15,6 +15,7 @@ def get_grade(score):
         return "F"
     else:
         return "Invalid score"
-
+        print("Enter a valid score")
+        
 score = int(input("Enter student score: "))
 print("Grade:", get_grade(score))
